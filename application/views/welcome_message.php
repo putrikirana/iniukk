@@ -32,24 +32,24 @@
 <!--header -->
 	<header>
 		<div class="wrapper">
-			<h1><a href="index.html" id="logo">Air lines</a></h1>
+			<h1><a href="http://localhost/iniukk/gudang/frontend/index.html" id="logo">Air lines</a></h1>
 			<span id="slogan">Fast, Frequent &amp; Safe Flights</span>
 			<nav id="top_nav">
 				<ul>
-					<li><a href="index.html" class="nav1">Home</a></li>
-					<li><a href="#" class="nav2">Sitemap</a></li>
-					<li><a href="Contacts.html" class="nav3">Contact</a></li>
+					<li><a href="http://localhost/iniukk/gudang/frontend/index.html" class="nav1">Home</a></li>
+					<li><a href="http://localhost/iniukk/gudang/frontend/#" class="nav2">Sitemap</a></li>
+					<li><a href="http://localhost/iniukk/gudang/frontend/Contacts.html" class="nav3">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 		<nav>
 			<ul id="menu">
-				<li id="menu_active"><a href="index.html"><span><span>About</span></span></a></li>
-				<li><a href="Offers.html"><span><span>Offers</span></span></a></li>
-				<li><a href="Book.html"><span><span>Book</span></span></a></li>
-				<li><a href="Services.html"><span><span>Services</span></span></a></li>
-				<li><a href="Safety.html"><span><span>Safety</span></span></a></li>
-				<li class="end"><a href="Contacts.html"><span><span>Contacts</span></span></a></li>
+				<li id="menu_active"><a href="http://localhost/iniukk/gudang/frontend/index.html"><span><span>About</span></span></a></li>
+				<li><a href="http://localhost/iniukk/gudang/frontend/Offers.html"><span><span>Offers</span></span></a></li>
+				<li><a href="http://localhost/iniukk/gudang/frontend/Book.html"><span><span>Book</span></span></a></li>
+				<li><a href="http://localhost/iniukk/gudang/frontend/Services.html"><span><span>Services</span></span></a></li>
+				<li><a href="http://localhost/iniukk/gudang/frontend/Safety.html"><span><span>Safety</span></span></a></li>
+				<li class="end"><a href="http://localhost/iniukk/gudang/frontend/Contacts.html"><span><span>Contacts</span></span></a></li>
 			</ul>
 		</nav>
 	</header><div class="ic">More Website Templates at TemplateMonster.com!</div>
@@ -60,9 +60,9 @@
 			<article class="col1">
 						<div class="tabs">
 							<ul class="nav">
-								<li class="selected"><a href="#Flight">Flight</a></li>
-								<li><a href="#Hotel">Hotel</a></li>
-								<li class="end"><a href="#Rental">Rental</a></li>
+								<li class="selected"><a href="http://localhost/iniukk/gudang/frontend/#Flight">Flight</a></li>
+								<li><a href="http://localhost/iniukk/gudang/frontend/#Hotel">Hotel</a></li>
+								<li class="end"><a href="http://localhost/iniukk/gudang/frontend/#Rental">Rental</a></li>
 							</ul>
 							<div class="content">
 								<div class="tab-content" id="Flight">
@@ -107,8 +107,8 @@
 												<span class="pad_left1">(0-11 years)</span>
 											</div>
 											<div class="wrapper">
-												<span class="right relative"><a href="#" class="button1" onClick="document.getElementById('form_1').submit()"><strong>Search</strong></a></span>
-												<a href="#" class="link1">More Options</a>
+												<span class="right relative"><a href="http://localhost/iniukk/gudang/frontend/#" class="button1" onClick="document.getElementById('form_1').submit()"><strong>Search</strong></a></span>
+												<a href="http://localhost/iniukk/gudang/frontend/#" class="link1">More Options</a>
 											</div>
 										</div>
 									</form>
@@ -129,17 +129,17 @@
 											<div class="row">
 												<span class="left">Check-in  </span>
 												<input type="text" class="input1" value="03.05.2011"  onblur="if(this.value=='') this.value='03.05.2011'" onFocus="if(this.value =='03.05.2011' ) this.value=''">
-												<a href="#" class="help"></a>
+												<a href="http://localhost/iniukk/gudang/frontend/#" class="help"></a>
 											</div>
 											<div class="row">
 												<span class="left">Check-out  </span>
 												<input type="text" class="input1" value="10.05.2011"  onblur="if(this.value=='') this.value='10.05.2011'" onFocus="if(this.value =='10.05.2011' ) this.value=''">
-												<a href="#" class="help"></a>
+												<a href="http://localhost/iniukk/gudang/frontend/#" class="help"></a>
 											</div>
 											<div class="row">
 												<span class="left">Rooms</span>
 												<input type="text" class="input2" value="1"  onblur="if(this.value=='') this.value='1'" onFocus="if(this.value =='1' ) this.value=''">
-												<a href="#" class="help"></a>
+												<a href="http://localhost/iniukk/gudang/frontend/#" class="help"></a>
 											</div>
 											<div class="row">
 												<span class="left">Adults</span>
@@ -151,8 +151,8 @@
 												<span class="pad_left1">(0-11 years)</span>
 											</div>
 											<div class="wrapper">
-												<span class="right relative"><a href="#" class="button1" onClick="document.getElementById('form_2').submit()"><strong>Search</strong></a></span>
-												<a href="#" class="link1">More Options</a>
+												<span class="right relative"><a href="http://localhost/iniukk/gudang/frontend/#" class="button1" onClick="document.getElementById('form_2').submit()"><strong>Search</strong></a></span>
+												<a href="http://localhost/iniukk/gudang/frontend/#" class="link1">More Options</a>
 											</div>
 										</div>
 									</form>
@@ -193,7 +193,7 @@
 												</div>
 											</div>
 											<div class="wrapper">
-												<span class="right relative"><a href="#" class="button1" onClick="document.getElementById('form_3').submit()"><strong>Search</strong></a></span>
+												<span class="right relative"><a href="http://localhost/iniukk/gudang/frontend/#" class="button1" onClick="document.getElementById('form_3').submit()"><strong>Search</strong></a></span>
 											</div>
 										</div>
 									</form>
@@ -202,9 +202,9 @@
 						</div>	
 					</article>
 					<div id="slider">
-						<img src="images/banner1.jpg" alt="">
-						<img src="images/banner2.jpg" alt="">
-						<img src="images/banner3.jpg" alt="">
+						<img src="http://localhost/iniukk/gudang/frontend/images/banner1.jpg" alt="">
+						<img src="http://localhost/iniukk/gudang/frontend/images/banner2.jpg" alt="">
+						<img src="http://localhost/iniukk/gudang/frontend/images/banner3.jpg" alt="">
 					</div>
 				</div>
 		<div class="wrapper pad1">
@@ -216,33 +216,33 @@
 								<ul class="pad_bot1 list1">
 									<li>
 										<span class="right color1">from GBP 143.-</span>
-										<a href="Book2.html">Zurich</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Zurich</a>
 									</li>
 								</ul>
 								<strong>From London City</strong><br>
 								<ul class="pad_bot1 list1">
 									<li>
 										<span class="right color1">from GBP 176.-</span>
-										<a href="Book2.html">Basel</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Basel</a>
 									</li>
 									<li>
 										<span class="right color1">from GBP 109.-</span>
-										<a href="Book2.html">Geneva</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Geneva</a>
 									</li>
 								</ul>
 								<strong>From London Heathrow</strong><br>
 								<ul class="pad_bot2 list1">
 									<li>
 										<span class="right color1">from GBP 100.-</span>
-										<a href="Book2.html">Geneva</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Geneva</a>
 									</li>
 									<li>
 										<span class="right color1">from GBP 112.-</span>
-										<a href="Book2.html">Zurich</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Zurich</a>
 									</li>
 									<li>
 										<span class="right color1">from GBP 88.-</span>
-										<a href="Book2.html">Basel</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Basel</a>
 									</li>
 								</ul>
 							</div>
@@ -252,7 +252,7 @@
 								<ul class="pad_bot2 list1">
 									<li class="pad_bot1">
 										<span class="right color1">from EUR 122.-</span>
-										<a href="Book2.html">Zurich</a>
+										<a href="http://localhost/iniukk/gudang/frontend/Book2.html">Zurich</a>
 									</li>
 								</ul>
 							</div>
@@ -262,12 +262,12 @@
 						<h3>About Our Airlines<span>Template created by TemplateMonster.com team</span></h3>
 						<div class="wrapper">
 							<article class="cols">
-								<figure><img src="images/page1_img1.jpg" alt="" class="pad_bot2"></figure>
+								<figure><img src="http://localhost/iniukk/gudang/frontend/images/page1_img1.jpg" alt="" class="pad_bot2"></figure>
 								<p class="pad_bot1"><strong>Airlines is one of <a href="http://blog.templatemonster.com/free-website-templates/" target="_blank">free website templates</a> created by TemplateMonster.com team.</strong></p>
 								<p>This website template is optimized for 1024X768 screen resolution. It is also XHTML &amp; CSS valid. This website template has several pages: <a href="index.html">About</a>, <a href="Offers.html">Offers</a>, <a href="Book.html">Book</a>, <a href="Services.html">Services</a>, <a href="Safety.html">Safety</a>, <a href="Contacts.html">Contacts</a>.</p>
 							</article>
 							<article class="cols pad_left1">
-								<figure><img src="images/page1_img2.jpg" alt="" class="pad_bot2"></figure>
+								<figure><img src="http://localhost/iniukk/gudang/frontend/images/page1_img2.jpg" alt="" class="pad_bot2"></figure>
 								<p class="pad_bot1"><strong>This <a href="http://blog.templatemonster.com/2011/05/09/free-website-template-airlines/" target="_blank">Airlines Template</a> goes with two packages.</strong></p>
 								<p>With PSD source files and without them. PSD source files are available for free for the registered members of Templates.com. The basic package (without PSD source files) is available for anyone without registration).</p>
 							</article>
@@ -281,12 +281,12 @@
 			<footer>
 				<div class="wrapper">
 					<ul id="icons">
-						<li><a href="#" class="normaltip" title="Facebook"><img src="images/icon1.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Delicious"><img src="images/icon2.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Stumble Upon"><img src="images/icon3.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Twitter"><img src="images/icon4.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Linkedin"><img src="images/icon5.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Reddit"><img src="images/icon6.jpg" alt=""></a></li>
+						<li><a href="http://localhost/iniukk/gudang/frontend/#" class="normaltip" title="Facebook"><img src="http://localhost/iniukk/gudang/frontend/images/icon1.jpg" alt=""></a></li>
+						<li><a href="http://localhost/iniukk/gudang/frontend/#" class="normaltip" title="Delicious"><img src="images/icon2.jpg" alt=""></a></li>
+						<li><a href="http://localhost/iniukk/gudang/frontend/#" class="normaltip" title="Stumble Upon"><img src="http://localhost/iniukk/gudang/frontend/images/icon3.jpg" alt=""></a></li>
+						<li><a href="http://localhost/iniukk/gudang/frontend/#" class="normaltip" title="Twitter"><img src="http://localhost/iniukk/gudang/frontend/images/icon4.jpg" alt=""></a></li>
+						<li><a href="http://localhost/iniukk/gudang/frontend/#" class="normaltip" title="Linkedin"><img src="http://localhost/iniukk/gudang/frontend/images/icon5.jpg" alt=""></a></li>
+						<li><a href="http://localhost/iniukk/gudang/frontend/#" class="normaltip" title="Reddit"><img src="http://localhost/iniukk/gudang/frontend/images/icon6.jpg" alt=""></a></li>
 					</ul>
 					<div class="links">
 						<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank">Website template</a> designed by TemplateMonster.com<br>
