@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>adminlteLTE 2 | Advanced form elements</title>
+  <title>AdminLTE 2 | Advanced form elements</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -27,8 +27,8 @@
   <!-- Select2 -->
   <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/select2/dist/css/select2.min.css'); ?>">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/dist/css/adminLTE.min.css'); ?>">
-  <!-- adminlteLTE Skins. Choose a skin from the css/skins
+  <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/dist/css/AdminLTE.min.css'); ?>">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/dist/css/skins/_all-skins.min.css'); ?>">
 
@@ -52,7 +52,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>adminlte</b>LTE</span>
+      <span class="logo-lg"><b>Admin</b>LTE</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -96,7 +96,7 @@
                         <img src="<?php echo base_url('assets/adminlte/dist/img/user3-128x128.jpg'); ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        adminlteLTE Design Team
+                        AdminLTE Design Team
                         <small><i class="fa fa-clock-o"></i> 2 hours</small>
                       </h4>
                       <p>Why not buy a new awesome theme?</p>
@@ -267,13 +267,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="user-image" alt="User Image">
+              <img src="<?php echo base_url('assets/admin/dist/img/user2-160x160.jpg'); ?>" class="user-image" alt="User Image">
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
+                <img src="<?php echo base_url('assets/admin/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -321,7 +321,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url('assets/admin/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -340,7 +340,7 @@
       </form>
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
-     <ul class="sidebar-menu" data-widget="tree">
+      <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li class="active treeview">
           <a href="#">
@@ -350,11 +350,6 @@
         <li>
         <a href="<?php echo base_url('admin/rute'); ?>">
             <i class="fa fa-map"></i><span> Rutes</span>
-            </a>
-            </li>
-        <li>
-        <a href="<?php echo base_url('admin/user'); ?>">
-            <i class="fa fa-map"></i><span> User</span>
             </a>
             </li>
         <li>
@@ -383,6 +378,7 @@
           </a>
         </li>
       </ul>
+    
     </section>
     <!-- /.sidebar -->
   </aside>
@@ -418,26 +414,15 @@
               <h3 class="box-title">Input masks</h3>
             </div>
             <div class="box-body">
-              <form action="<?php echo base_url('admin/proses_tambah'); ?>" method="post">
-<!--                 <div class="form-group">
-                <label>Depart At :</label>
-                <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker" name="depart" required="true" readonly="true">
-                  </div>
-                </div> -->
-                 <div class="form-group">
-                  <label>Id :</label>
-                  <input type="text" class="form-control" name="id" required="true">
-                </div>
+              <?php foreach($rute as $s){ ?>
+              <form action="<?php echo base_url('admin/update_rute'); ?>" method="post">
                 <div class="bootstrap-timepicker">
                 <div class="form-group">
                   <label>Depart At:</label>
 
                   <div class="input-group">
-                    <input type="text" class="form-control timepicker" name="depart">
+                    <input type="hidden" name="id" value="<?php echo $s->id ?>">
+                    <input type="text" class="form-control timepicker" name="depart" value="<?php echo $s->depart_at ?>">
 
                     <div class="input-group-addon">
                       <i class="fa fa-clock-o"></i>
@@ -447,20 +432,23 @@
                 </div>
                 <div class="form-group">
                   <label>Rute From :</label>
-                  <input type="text" class="form-control" name="rutefrom" required="true">
+                  <input type="text" class="form-control" name="rutefrom" required="true" value="<?php echo $s->rute_from ?>">
                 </div>
                 <div class="form-group">
                   <label>Rute To :</label>
-                  <input type="text" class="form-control" name="ruteto" required="true">
+                  <input type="text" class="form-control" name="ruteto" required="true" value="<?php echo $s->rute_to ?>">
                 </div>  
                 <div class="form-group">
                   <label>Price :</label>
-                  <input type="text" class="form-control" name="price" required="true">
+                  <input type="text" class="form-control" name="price" required="true" value="<?php echo $s->price ?>">
                 </div>
                 <div class="box-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
+
+
               </form>
+              <?php } ?>
             </div>
             <!-- /.box-body -->
           </div>
@@ -498,8 +486,7 @@
                   <td><?php echo $s->rute_from ?></td>
                   <td><?php echo $s->rute_to ?></td>
                   <td><?php echo $s->price ?></td>
-                  <td><a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/hapus_rute/'.$s->id)); ?>'">Remove</a>  
-                    <a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/edit_rute/'.$s->id)); ?>'">Edit</a>
+                  <td><a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/hapus_rute/'.$s->id)); ?>'">Remove</a>
                   </td>
                 </tr>
                 <?php } ?>
@@ -518,7 +505,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.0
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminltelte.io">Almsaeed Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
     reserved.
   </footer>
 
@@ -719,40 +706,40 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 3 -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/jquery/dist/jquery.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/jquery/dist/jquery.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap/js/collapse.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap/js/transition.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/jquery/dist/jquery.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/jquery/dist/jquery.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap/js/collapse.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap/js/transition.js'); ?>"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap/dist/js/bootstrap.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap/dist/js/bootstrap.min.js'); ?>"></script>
 <!-- Select2 -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/select2/dist/js/select2.full.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/select2/dist/js/select2.full.min.js'); ?>"></script>
 <!-- InputMask -->
-<script src="<?php echo base_url('assets/adminlte/plugins/input-mask/jquery.inputmask.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/plugins/input-mask/jquery.inputmask.date.extensions.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/plugins/input-mask/jquery.inputmask.extensions.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/plugins/input-mask/jquery.inputmask.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/plugins/input-mask/jquery.inputmask.date.extensions.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/plugins/input-mask/jquery.inputmask.extensions.js'); ?>"></script>
 <!-- date-range-picker -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/moment/min/moment.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/moment/src/moment.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/moment/min/moment.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/moment/src/moment.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap-daterangepicker/daterangepicker.js'); ?>"></script>
 <!-- bootstrap datepicker -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js'); ?>"></script>
 <!-- bootstrap color picker -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js'); ?>"></script>
 <!-- bootstrap time picker -->
-<script src="<?php echo base_url('assets/adminlte/plugins/timepicker/bootstrap-timepicker.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/plugins/timepicker/bootstrap-timepicker.min.js'); ?>"></script>
 <!-- SlimScroll -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/jquery-slimscroll/jquery.slimscroll.min.js'); ?>"></script>
 <!-- iCheck 1.0.1 -->
-<script src="<?php echo base_url('assets/adminlte/plugins/iCheck/icheck.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/plugins/iCheck/icheck.min.js'); ?>"></script>
 <!-- FastClick -->
-<script src="<?php echo base_url('assets/adminlte/bower_components/fastclick/lib/fastclick.js'); ?>"></script>
-<!-- adminlteLTE App -->
-<script src="<?php echo base_url('assets/adminlte/dist/js/adminlte.min.js'); ?>"></script>
-<!-- adminlteLTE for demo purposes -->
-<script src="<?php echo base_url('assets/adminlte/dist/js/demo.js'); ?>"></script>
+<script src="<?php echo base_url('assets/admin/bower_components/fastclick/lib/fastclick.js'); ?>"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url('assets/admin/dist/js/adminlte.min.js'); ?>"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url('assets/admin/dist/js/demo.js'); ?>"></script>
 <!-- Page script -->
 <script>
   $(function () {

@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>adminlteLTE 2 | Advanced form elements</title>
   <!-- Tell the browser to be responsive to screen width -->
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, customer-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/bootstrap/dist/css/bootstrap.min.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css'); ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/bootstrap-date/build/css/bootstrap-date.min.css'); ?>">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/font-awesome/css/font-awesome.min.css'); ?>">
   <!-- Ionicons -->
@@ -23,7 +23,7 @@
   <!-- Bootstrap Color Picker -->
   <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css'); ?>">
   <!-- Bootstrap time Picker -->
-  <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/plugins/timepicker/bootstrap-timepicker.min.css'); ?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/plugins//bootstrap-.min.css'); ?>">
   <!-- Select2 -->
   <link rel="stylesheet" href="<?php echo base_url('assets/adminlte/bower_components/select2/dist/css/select2.min.css'); ?>">
   <!-- Theme style -->
@@ -80,7 +80,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url('assets/adminlte/dist/img/customer2-160x160.jpg'); ?>" class="img-circle" alt="customer Image">
                       </div>
                       <h4>
                         Support Team
@@ -93,7 +93,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="<?php echo base_url('assets/adminlte/dist/img/user3-128x128.jpg'); ?>" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url('assets/adminlte/dist/img/customer3-128x128.jpg'); ?>" class="img-circle" alt="customer Image">
                       </div>
                       <h4>
                         adminlteLTE Design Team
@@ -105,7 +105,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="<?php echo base_url('assets/adminlte/dist/img/user4-128x128.jpg'); ?>" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url('assets/adminlte/dist/img/customer4-128x128.jpg'); ?>" class="img-circle" alt="customer Image">
                       </div>
                       <h4>
                         Developers
@@ -117,10 +117,10 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="<?php echo base_url('assets/adminlte/dist/img/user3-128x128.jpg'); ?>" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url('assets/adminlte/dist/img/customer3-128x128.jpg'); ?>" class="img-circle" alt="customer Image">
                       </div>
                       <h4>
-                        Sales Department
+                        Sales Namement
                         <small><i class="fa fa-clock-o"></i> Yesterday</small>
                       </h4>
                       <p>Why not buy a new awesome theme?</p>
@@ -129,7 +129,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="<?php echo base_url('assets/adminlte/dist/img/user4-128x128.jpg'); ?>" class="img-circle" alt="User Image">
+                        <img src="<?php echo base_url('assets/adminlte/dist/img/customer4-128x128.jpg'); ?>" class="img-circle" alt="customer Image">
                       </div>
                       <h4>
                         Reviewers
@@ -156,7 +156,7 @@
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      <i class="fa fa-customers text-aqua"></i> 5 new members joined today
                     </a>
                   </li>
                   <li>
@@ -167,7 +167,7 @@
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
+                      <i class="fa fa-customers text-red"></i> 5 new members joined
                     </a>
                   </li>
 
@@ -178,7 +178,7 @@
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
+                      <i class="fa fa-customer text-red"></i> You changed your Name
                     </a>
                   </li>
                 </ul>
@@ -264,16 +264,16 @@
               </li>
             </ul>
           </li>
-          <!-- User Account: style can be found in dropdown.less -->
-          <li class="dropdown user user-menu">
+          <!-- customer Account: style can be found in dropdown.less -->
+          <li class="dropdown customer customer-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="user-image" alt="User Image">
+              <img src="<?php echo base_url('assets/adminlte/dist/img/customer2-160x160.jpg'); ?>" class="customer-image" alt="customer Image">
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
-              <!-- User image -->
-              <li class="user-header">
-                <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
+              <!-- customer image -->
+              <li class="customer-header">
+                <img src="<?php echo base_url('assets/adminlte/dist/img/customer2-160x160.jpg'); ?>" class="img-circle" alt="customer Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -281,7 +281,7 @@
                 </p>
               </li>
               <!-- Menu Body -->
-              <li class="user-body">
+              <li class="customer-body">
                 <div class="row">
                   <div class="col-xs-4 text-center">
                     <a href="#">Followers</a>
@@ -296,7 +296,7 @@
                 <!-- /.row -->
               </li>
               <!-- Menu Footer-->
-              <li class="user-footer">
+              <li class="customer-footer">
                 <div class="pull-left">
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
@@ -318,10 +318,10 @@
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
-      <!-- Sidebar user panel -->
-      <div class="user-panel">
+      <!-- Sidebar customer panel -->
+      <div class="customer-panel">
         <div class="pull-left image">
-          <img src="<?php echo base_url('assets/adminlte/dist/img/user2-160x160.jpg'); ?>" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url('assets/adminlte/dist/img/customer2-160x160.jpg'); ?>" class="img-circle" alt="customer Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -350,11 +350,6 @@
         <li>
         <a href="<?php echo base_url('admin/rute'); ?>">
             <i class="fa fa-map"></i><span> Rutes</span>
-            </a>
-            </li>
-        <li>
-        <a href="<?php echo base_url('admin/user'); ?>">
-            <i class="fa fa-map"></i><span> User</span>
             </a>
             </li>
         <li>
@@ -420,42 +415,38 @@
             <div class="box-body">
               <form action="<?php echo base_url('admin/proses_tambah'); ?>" method="post">
 <!--                 <div class="form-group">
-                <label>Depart At :</label>
+                <label>Name :</label>
                 <div class="input-group date">
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div>
-                  <input type="text" class="form-control pull-right" id="datepicker" name="depart" required="true" readonly="true">
+                  <input type="text" class="form-control pull-right" id="datepicker" name="Name" required="true" readonly="true">
                   </div>
                 </div> -->
                  <div class="form-group">
                   <label>Id :</label>
                   <input type="text" class="form-control" name="id" required="true">
                 </div>
-                <div class="bootstrap-timepicker">
+                <div class="bootstrap-">
                 <div class="form-group">
-                  <label>Depart At:</label>
+                  <label>Name:</label>
 
                   <div class="input-group">
-                    <input type="text" class="form-control timepicker" name="depart">
-
-                    <div class="input-group-addon">
-                      <i class="fa fa-clock-o"></i>
-                    </div>
+                    <input type="text" class="form-control " name="name">
                   </div>
                 </div>
                 </div>
                 <div class="form-group">
-                  <label>Rute From :</label>
-                  <input type="text" class="form-control" name="rutefrom" required="true">
+                  <label>Email :</label>
+                  <input type="Email" class="form-control" name="email" required="true">
                 </div>
                 <div class="form-group">
-                  <label>Rute To :</label>
-                  <input type="text" class="form-control" name="ruteto" required="true">
+                  <label>Address :</label>
+                  <input type="text" class="form-control" name="address" required="true">
                 </div>  
                 <div class="form-group">
-                  <label>Price :</label>
-                  <input type="text" class="form-control" name="price" required="true">
+                  <label>Phone :</label>
+                  <input type="text" class="form-control" name="phone" required="true">
                 </div>
                 <div class="box-footer">
                   <button type="submit" class="btn btn-primary">Submit</button>
@@ -481,25 +472,25 @@
               <table class="table">
                 <tr>
                   <th style="width: 10px">#</th>
-                  <th>Depart At</th>
-                  <th>Rute From</th>
-                  <th>Rute To</th>
-                  <th>Price</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Address</th>
+                  <th>Phone</th>
                   <th>Action</th>
             
                 </tr>
                   <?php 
                   $no = 1;
-                  foreach($rute as $s){ 
+                  foreach($customer as $s){ 
                   ?>
                 <tr>
                   <td><?php echo $no++ ?></td>
-                  <td><?php echo $s->depart_at ?></td>
-                  <td><?php echo $s->rute_from ?></td>
-                  <td><?php echo $s->rute_to ?></td>
-                  <td><?php echo $s->price ?></td>
-                  <td><a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/hapus_rute/'.$s->id)); ?>'">Remove</a>  
-                    <a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/edit_rute/'.$s->id)); ?>'">Edit</a>
+                  <td><?php echo $s->Name ?></td>
+                  <td><?php echo $s->Email ?></td>
+                  <td><?php echo $s->Address ?></td>
+                  <td><?php echo $s->Phone ?></td>
+                  <td><a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/hapus_customer/'.$s->id)); ?>'">Remove</a>  
+                    <a style="cursor: pointer;" title="" onclick="href='<?php echo base_url(('admin/edit_customer/'.$s->id)); ?>'">Edit</a>
                   </td>
                 </tr>
                 <?php } ?>
@@ -548,7 +539,7 @@
           </li>
           <li>
             <a href="javascript:void(0)">
-              <i class="menu-icon fa fa-user bg-yellow"></i>
+              <i class="menu-icon fa fa-customer bg-yellow"></i>
 
               <div class="menu-info">
                 <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
@@ -676,7 +667,7 @@
             </label>
 
             <p>
-              Allow the user to show his name in blog posts
+              Allow the customer to show his name in blog posts
             </p>
           </div>
           <!-- /.form-group -->
@@ -720,7 +711,7 @@
 
 <!-- jQuery 3 -->
 <script src="<?php echo base_url('assets/adminlte/bower_components/jquery/dist/jquery.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js'); ?>"></script>
+<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-date/src/js/bootstrap-date.js'); ?>"></script>
 <script src="<?php echo base_url('assets/adminlte/bower_components/jquery/dist/jquery.js'); ?>"></script>
 <script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap/js/collapse.js'); ?>"></script>
 <script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap/js/transition.js'); ?>"></script>
@@ -735,14 +726,14 @@
 <!-- date-range-picker -->
 <script src="<?php echo base_url('assets/adminlte/bower_components/moment/min/moment.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/adminlte/bower_components/moment/src/moment.js'); ?>"></script>
-<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-date/build/js/bootstrap-date.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.js'); ?>"></script>
 <!-- bootstrap datepicker -->
 <script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js'); ?>"></script>
 <!-- bootstrap color picker -->
 <script src="<?php echo base_url('assets/adminlte/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js'); ?>"></script>
 <!-- bootstrap time picker -->
-<script src="<?php echo base_url('assets/adminlte/plugins/timepicker/bootstrap-timepicker.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/adminlte/plugins//bootstrap-.min.js'); ?>"></script>
 <!-- SlimScroll -->
 <script src="<?php echo base_url('assets/adminlte/bower_components/jquery-slimscroll/jquery.slimscroll.min.js'); ?>"></script>
 <!-- iCheck 1.0.1 -->
@@ -754,80 +745,5 @@
 <!-- adminlteLTE for demo purposes -->
 <script src="<?php echo base_url('assets/adminlte/dist/js/demo.js'); ?>"></script>
 <!-- Page script -->
-<script>
-  $(function () {
-    //Initialize Select2 Elements
-    $('.select2').select2()
-
-    //Datemask dd/mm/yyyy
-    $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
-    //Datemask2 mm/dd/yyyy
-    $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
-    //Money Euro
-    $('[data-mask]').inputmask()
-
-    //Date range picker
-    $('#reservation').daterangepicker()
-    //Date range picker with time picker
-    $('#reservationtime').daterangepicker({ timePicker: true, timePickerIncrement: 30, format: 'MM/DD/YYYY h:mm A' })
-    //Date range as a button
-    $('#daterange-btn').daterangepicker(
-      {
-        ranges   : {
-          'Today'       : [moment(), moment()],
-          'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-          'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
-          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-          'This Month'  : [moment().startOf('month'), moment().endOf('month')],
-          'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-        },
-        startDate: moment().subtract(29, 'days'),
-        endDate  : moment()
-      },
-      function (start, end) {
-        $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
-      }
-    )
-
-    //Date picker
-    $('#datepicker').datepicker({
-      autoclose: true,
-       format: 'yyyy/mm/dd'
-    })
-
-    //iCheck for checkbox and radio inputs
-    $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
-      checkboxClass: 'icheckbox_minimal-blue',
-      radioClass   : 'iradio_minimal-blue'
-    })
-    //Red color scheme for iCheck
-    $('input[type="checkbox"].minimal-red, input[type="radio"].minimal-red').iCheck({
-      checkboxClass: 'icheckbox_minimal-red',
-      radioClass   : 'iradio_minimal-red'
-    })
-    //Flat red color scheme for iCheck
-    $('input[type="checkbox"].flat-red, input[type="radio"].flat-red').iCheck({
-      checkboxClass: 'icheckbox_flat-green',
-      radioClass   : 'iradio_flat-green'
-    })
-
-    //Colorpicker
-    $('.my-colorpicker1').colorpicker()
-    //color picker with addon
-    $('.my-colorpicker2').colorpicker()
-
-    //Timepicker
-    $('.timepicker').timepicker({
-      showInputs: false,
-      minuteStep: 1,
-                // template: 'modal',
-                // appendWidgetTo: 'body',
-                showSeconds: true,
-                showMeridian: false,
-                defaultTime: false
-                // explicitMode : true
-    })
-  })
-</script>
 </body>
 </html>
